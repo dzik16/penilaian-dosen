@@ -20,7 +20,7 @@ const HomePage: React.FC = () => {
     setAlert(true)
     const interval = setInterval(() => {
       setAlert(false)
-    }, 5000);
+    }, 10000);
 
     return () => {
       clearInterval(interval);
